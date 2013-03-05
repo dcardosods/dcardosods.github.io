@@ -1,0 +1,10 @@
+{
+  "name": "danielcardoso.com.br",
+  "description": "Daniel Cardoso's Website",
+  "version": "0.1.0",
+  "author": "Daniel Cardoso <danielcardosods@gmail.com>",
+  "dependencies": {
+    "docpad-plugin-marked": "~2.1.0",
+    "docpad-plugin-eco": "~2.0.1"
+  }
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE >
+<!DOCTYPE html>
 <html>
 <head>
     <title><%= @document.title %> | My Website</title>

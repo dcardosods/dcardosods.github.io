@@ -1,3 +1,21 @@
+/**
+ * Use no more than 4 font sizes, and 3 font families
+ * Work with the number 6 for grid sizes
+ */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 75%;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 0.75em;
+}
+h1 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.333333333em;
+    line-height: 1.5em;
+}
 h1 {
     color: red;
 }

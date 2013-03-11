@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= @document.title %> | My Website</title>
+    <title><%= @getPreparedTitle() %></title>
     <%- @getBlock("meta").toHTML() %>
     <%- @getBlock("styles").add(["/styles/style.css"]).toHTML() %>
 </head>

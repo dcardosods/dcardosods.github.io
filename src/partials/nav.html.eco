@@ -1,0 +1,7 @@
+<nav>
+    <ul class="list">
+        <li class="list-item">Home</li>
+        <li class="list-item">About</li>
+        <li class="list-item">Labs</li>
+    </ul>
+</nav>

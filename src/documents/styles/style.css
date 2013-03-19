@@ -5,6 +5,7 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 75%;
+    background: url('/img/design/mobile-first-grid.png') no-repeat;
 }
 h1, h2, h3, h4, h5, h6{
     line-height: 0.75em;
@@ -18,4 +19,26 @@ p {
 }
 h1 {
     color: red;
+}
+
+/* Navigation */
+nav {
+    float: left;
+}
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+.list-item {
+    line-height: 2em;
+    border: 1px solid red;
+    border-radius: 0 0 10px 0;
+    padding: 0.5em;
+    text-transform: rotate(-90deg);
+}
+
+/* Main */
+.main {
+    overflow: hidden;
+    padding: 0.75em;
 }

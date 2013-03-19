@@ -6,6 +6,8 @@
   "dependencies": {
     "docpad-plugin-eco": "~2.0.1",
     "docpad-plugin-livereload": "~2.3.0",
-    "docpad-plugin-marked": "~2.1.1"
+    "docpad-plugin-marked": "~2.1.1",
+    "docpad-plugin-less": "~2.1.3",
+    "docpad-plugin-partials": "~2.5.0"
   }
 }

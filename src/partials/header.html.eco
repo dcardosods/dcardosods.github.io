@@ -1,0 +1,4 @@
+<header>
+    <img src="<%= @gravatar %>" alt="Daniel Cardoso's Gravatar" class="gravatar">
+    <h1>Daniel Cardoso</h1>
+</header>

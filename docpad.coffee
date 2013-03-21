@@ -24,9 +24,13 @@ docpadConfig = {
 
             # The website keywords (for SEO) separated by commas
             keywords: """
-                daniel, cardoso, front-end, web, desenvolvimento, html5, css3
+                daniel cardoso, daniel, cardoso, front-end, web, desenvolvimento, html5, css3
                 """
 
+        # Config from external services
+        external:
+            # Gravatar image url
+            gravatar: "http://www.gravatar.com/avatar/671f2bfb88fb1f9d0d77b2d150dae533.png"
 
         # -----------------------------
         # Helper Functions

@@ -1,14 +1,15 @@
-/**
- * Use no more than 4 font sizes, and 3 font families
- * Work with the number 6 for grid sizes
- */
+/* Globals */
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 75%;
-    background: url('/img/design/mobile-first-grid.png') no-repeat;
+    /*background: url('/img/design/mobile-first-grid.png') no-repeat;*/
+    margin: 0;
+    color: #333;
 }
 h1, h2, h3, h4, h5, h6{
     line-height: 0.75em;
+    color: #000;
+    text-align: center;
 }
 h1 {
     font-size: 2em;
@@ -17,8 +18,17 @@ p {
     font-size: 1.333333333em;
     line-height: 1.5em;
 }
-h1 {
-    color: red;
+
+/* Header */
+header {
+    border-bottom: 1px solid #333;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding: 0.75em;
+}
+.gravatar {
+    width: 4em;
+    border-radius: 4em;
+    float: left;
 }
 
 /* Navigation */
@@ -31,14 +41,26 @@ nav {
 }
 .list-item {
     line-height: 2em;
-    border: 1px solid red;
-    border-radius: 0 0 10px 0;
+    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    border-radius: 0 0 5px 0;
     padding: 0.5em;
-    text-transform: rotate(-90deg);
 }
 
 /* Main */
 .main {
     overflow: hidden;
     padding: 0.75em;
+}
+
+/* Utitlities */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
 }

@@ -6,10 +6,12 @@
     <%- @getBlock('styles').add(['/styles/style.css']).toHTML() %>
 </head>
 <body>
-    <h1><%= @document.title %></h1>
-    <%- @partial('nav.html.eco') %>
-    <div class="main">
-        <%- @content %>
+    <div class="wrapper clearfix">
+        <%-  @partial('header.html.eco', { gravatar: @external.gravatar }) %>
+        <%- @partial('nav.html.eco') %>
+        <div class="main">
+            <%- @content %>
+        </div>
     </div>
     <%- @getBlock('scripts').add(['/vendor/jquery.js','/scripts/script.js']).toHTML() %>
 </body>

@@ -27,7 +27,7 @@ header {
 }
 .gravatar {
     width: 4em;
-    border-radius: 4em;
+    border-radius: 50%;
     float: left;
 }
 

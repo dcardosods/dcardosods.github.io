@@ -1,3 +1,7 @@
+# Requires
+moment = require('moment')
+moment.lang('pt-br')  # set locale to brazilian portuguese
+
 # DocPad Configuration
 docpadConfig = {
 
@@ -69,6 +73,9 @@ docpadConfig = {
         getPreparedKeywords: ->
             # Merge the document keywords with the site keywords
             @site.keywords.concat(@document.keywords or []).join(', ')
+
+        # Format the passed date, by default format like: Thursday, November 29 2012 3:53 PM
+        formatDate: (date, format = 'DD/MM/YYYY') -> moment(date).format(format)
 
 }
 

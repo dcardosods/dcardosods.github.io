@@ -2,4 +2,12 @@
 layout: default
 ---
 
-<div><%- @content %></div>
+<section>
+    <article>
+        <header>
+            <h1><%- @document.title %></h1>
+            <p class="post-date"><%= @formatDate(@document.date) %></p>
+        </header>
+        <%- @content %>
+    </article>
+</section>

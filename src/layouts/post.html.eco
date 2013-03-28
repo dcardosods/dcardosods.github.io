@@ -5,7 +5,11 @@ layout: default
 <section>
     <article>
         <header>
-            <h1><%- @document.title %></h1>
+            <h1>
+                <a href="<%= @document.url %>" rel="bookmark" title="<%- @document.title %>">
+                    <%- @document.title %>
+                </a>
+            </h1>
             <p class="post-date"><%= @formatDate(@document.date) %></p>
         </header>
         <%- @content %>

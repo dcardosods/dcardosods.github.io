@@ -1,7 +1,9 @@
 <nav>
     <ul class="list">
-        <li class="list-item">Home</li>
-        <li class="list-item">About</li>
-        <li class="list-item">Labs</li>
+        <% for item in @nav: %>
+            <li class="list-item">
+                <a href="<%= item.href %>"><%- item.text %></a>
+            </li>
+        <% end %>
     </ul>
 </nav>

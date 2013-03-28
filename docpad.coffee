@@ -45,6 +45,18 @@ docpadConfig = {
                 "/scripts/script.js"
             ]
 
+            # Navigation
+            nav: [
+                    href: "http://danielcardoso.com.br"
+                    text: "Home"
+                ,
+                    href: "http://danielcardoso.com.br/about"
+                    text: "About"
+                ,
+                    href: "http://danielcardoso.com.br/labs"
+                    text: "Labs"
+            ]
+
         # Config from external services
         external:
             # Gravatar image url

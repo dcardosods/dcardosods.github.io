@@ -1,4 +1,6 @@
 <header>
-    <img src="<%= @gravatar %>" alt="Daniel Cardoso's Gravatar" class="gravatar">
+    <a href="<%= @url %>">
+        <img src="<%= @gravatar %>" alt="Daniel Cardoso's Gravatar" class="gravatar">
+    </a>
     <h1>Daniel Cardoso</h1>
 </header>

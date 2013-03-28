@@ -17,6 +17,9 @@ docpadConfig = {
             # The default title of our website
             title: "My Website"
 
+            # Author of website
+            author: "Daniel Cardoso"
+
             # The website description (for SEO)
             description: """
                 Front-end Developer from Brazil southern
@@ -26,6 +29,17 @@ docpadConfig = {
             keywords: """
                 daniel cardoso, daniel, cardoso, front-end, web, desenvolvimento, html5, css3
                 """
+
+            # Styles
+            styles: [
+                "/styles/style.css"
+            ]
+
+            # Scripts
+            scripts: [
+                "/vendor/jquery.js"
+                "/scripts/script.js"
+            ]
 
         # Config from external services
         external:

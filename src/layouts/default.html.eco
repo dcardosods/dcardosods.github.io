@@ -34,6 +34,6 @@
             <%- @content %>
         </div>
     </div>
-    <%- @getBlock('scripts').add(['/vendor/jquery.js','/scripts/script.js']).toHTML() %>
+    <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>
 </html>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section>
+    <%- @content %>
+    <% for post in @getFilesAtPath("posts").toJSON(): %>
+        <article>
+            <header>
+                <h2>
+                    <a href="<%= post.url %>" rel="bookmark" title="<%- post.title %>">
+                        <%- post.title %>
+                    </a>
+                </h2>
+                <p class="post-date"><%= @formatDate(@document.date) %></p>
+            </header>
+            <p>
+                <%- post.excerpt %>
+                <a href="<%= post.url %>"> ...</a>
+            </p>
+        </article>
+    <% end %>
+</section>

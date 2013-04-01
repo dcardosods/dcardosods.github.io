@@ -47,13 +47,13 @@ docpadConfig = {
 
             # Navigation
             nav: [
-                    href: "http://danielcardoso.com.br"
+                    href: "/"
                     text: "Home"
                 ,
-                    href: "http://danielcardoso.com.br/about"
+                    href: "/about"
                     text: "About"
                 ,
-                    href: "http://danielcardoso.com.br/labs"
+                    href: "/labs"
                     text: "Labs"
             ]
 

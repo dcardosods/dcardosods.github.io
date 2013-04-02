@@ -33,6 +33,7 @@
         <div class="main">
             <%- @content %>
         </div>
+        <%- @partial('footer.html.eco') %>
     </div>
     <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>

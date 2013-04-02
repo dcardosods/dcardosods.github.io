@@ -1,9 +1,5 @@
-<header class="site-header">
-    <a href="<%= @url %>" title="Go to home">
-        <img src="<%= @gravatar %>" alt="Daniel Cardoso's Gravatar" class="gravatar">
-    </a>
-    <h1 class="site-title">Daniel Cardoso</h1>
-    <div class="social-box">
+<footer>
+    <div class="social-box block center">
         <a href="//github.com/dcardosods/" target="_blank" title="Daniel Cardoso's Github Profile" class="social-links">
             <img src="/images/github.png" alt="Github Icon">
         </a>
@@ -14,4 +10,4 @@
             <img src="/images/twitter.png" alt="Twitter Icon">
         </a>
     </div>
-</header>
+</footer>

@@ -1,6 +1,6 @@
 ---
-title: "About Me"
-layout: "default"
+title: About Me
+layout: page
 isPage: true
 ---
 

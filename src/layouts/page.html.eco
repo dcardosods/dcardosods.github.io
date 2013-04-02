@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<section>
+    <article>
+        <header>
+            <h1><%- @document.title %></h1>
+        </header>
+        <%- @content %>
+    </article>
+</section>

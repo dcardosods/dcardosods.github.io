@@ -110,4 +110,16 @@ footer {
         display: block;
         float: right;
     }
+    nav {
+        float: left;
+    }
+    .list {
+        text-align: left;
+    }
+    .list-item {
+        display: block;
+    }
+    .main {
+        padding: 0.75em 5em;
+    }
 }

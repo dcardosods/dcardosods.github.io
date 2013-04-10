@@ -2,7 +2,7 @@
     <ul class="list">
         <% for item in @nav: %>
             <li class="list-item">
-                <a href="<%= item.href %>" class="list-item-link"><%- item.text %></a>
+                <a href="<%= item.href %>" title="<%- item.title || item.text %>" class="list-item-link"><%- item.text %></a>
             </li>
         <% end %>
     </ul>

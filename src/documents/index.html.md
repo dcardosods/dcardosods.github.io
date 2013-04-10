@@ -1,7 +1,5 @@
 ---
-title: Welcome!
+title:
 layout: index
 isPage: true
 ---
-
-#Last Posts

@@ -19,14 +19,14 @@ docpadConfig = {
             url: "http://danielcardoso.com.br"
 
             # The default title of our website
-            title: "My Website"
+            title: "Daniel Cardoso"
 
             # Author of website
             author: "Daniel Cardoso"
 
             # The website description (for SEO)
             description: """
-                Front-end Developer from Brazil southern
+                Daniel Cardoso, desenvolvedor front-end apaixonado por web
                 """
 
             # The website keywords (for SEO) separated by commas
@@ -49,9 +49,11 @@ docpadConfig = {
             nav: [
                     href: "/"
                     text: "Home"
+                    title: "Ir para a página inicial"
                 ,
-                    href: "/about"
-                    text: "About"
+                    href: "/sobre"
+                    text: "Sobre"
+                    title: "Sobre Daniel Cardoso"
                 ,
                     href: "/blog"
                     text: "Blog"

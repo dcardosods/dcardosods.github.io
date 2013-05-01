@@ -12,7 +12,11 @@ layout: default
                         <%- post.title %>
                     </a>
                 </h2>
-                <p class="post-date"><%= @formatDate(@document.date) %></p>
+                <p class="post-date">
+                    <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
+                        <%= @formatDate(@document.date) %>
+                    </time>
+                </p>
             </header>
             <p>
                 <%- post.excerpt %>

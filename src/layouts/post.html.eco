@@ -10,7 +10,11 @@ layout: default
                     <%- @document.title %>
                 </a>
             </h1>
-            <p class="post-date"><%= @formatDate(@document.date) %></p>
+            <p class="post-date">
+                <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
+                    <%= @formatDate(@document.date) %>
+                </time>
+            </p>
         </header>
         <%- @content %>
     </article>

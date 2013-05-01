@@ -96,10 +96,10 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 720px) {
+@media screen and  (min-width: 720px) {
     .wrapper {
         margin: 0 auto;
-        width: 720px;
+        max-width: 720px;
     }
     .site-header {
         text-align: center;

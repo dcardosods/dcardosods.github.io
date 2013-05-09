@@ -1,13 +1,13 @@
 <footer>
     <div class="social-box block center">
         <a href="//github.com/dcardosods/" target="_blank" title="Daniel Cardoso no Github" class="social-links">
-            <img src="/images/github.png" alt="Ícone do Github">
+            <i class="icon-github icon-3x"></i>
         </a>
         <a href="//facebook.com/dcardosods/" target="_blank" title="Daniel Cardoso no Facebook" class="social-links">
-            <img src="/images/facebook.png" alt="Ícone do Facebook">
+            <i class="icon-facebook icon-3x"></i>
         </a>
         <a href="//twitter.com/dcardosods/" target="_blank" title="Daniel Cardoso no Twitter" class="social-links">
-            <img src="/images/twitter.png" alt="Ícone do Twitter">
+            <i class="icon-twitter icon-3x"></i>
         </a>
     </div>
 </footer>

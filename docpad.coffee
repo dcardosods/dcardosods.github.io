@@ -52,9 +52,10 @@ docpadConfig = {
                     text: "Home"
                     title: "Ir para a página inicial"
                 ,
-                    href: "/sobre"
+                    href: "//about.me/dcardosods/"
                     text: "Sobre"
-                    title: "Sobre Daniel Cardoso"
+                    title: "Sobre Daniel Cardoso",
+                    external: true
             ]
 
         # Config from external services

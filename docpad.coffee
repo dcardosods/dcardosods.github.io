@@ -55,9 +55,6 @@ docpadConfig = {
                     href: "/sobre"
                     text: "Sobre"
                     title: "Sobre Daniel Cardoso"
-                ,
-                    href: "/blog"
-                    text: "Blog"
             ]
 
         # Config from external services

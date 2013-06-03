@@ -29,7 +29,7 @@
 <body>
     <div class="wrapper clearfix">
         <%-  @partial('header.html.eco', { url: @site.url, gravatar: @external.gravatar }) %>
-        <%- @partial('nav.html.eco', { nav: @site.nav }) %>
+        <%- @partial('nav.html.eco', { nav: @site.nav, currentLayout: @document.layout }) %>
         <div class="main">
             <%- @content %>
         </div>

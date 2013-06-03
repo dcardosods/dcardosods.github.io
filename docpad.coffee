@@ -51,10 +51,11 @@ docpadConfig = {
                     href: "/"
                     text: "Home"
                     title: "Ir para a página inicial"
+                    excludeFrom: "index"
                 ,
                     href: "//about.me/dcardosods/"
                     text: "Sobre"
-                    title: "Sobre Daniel Cardoso",
+                    title: "Sobre Daniel Cardoso"
                     external: true
             ]
 

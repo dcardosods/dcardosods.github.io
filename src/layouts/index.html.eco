@@ -7,11 +7,11 @@ layout: default
     <% for post in @getFilesAtPath("posts").toJSON(): %>
         <article>
             <header>
-                <h2>
+                <h1 class="post-title">
                     <a href="<%= post.url %>" rel="bookmark" title="<%- post.title %>">
                         <%- post.title %>
                     </a>
-                </h2>
+                </h1>
                 <p class="post-date">
                     <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
                         <%= @formatDate(@document.date) %>

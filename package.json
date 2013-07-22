@@ -10,6 +10,8 @@
     "docpad-plugin-less": "~2.1.3",
     "docpad-plugin-partials": "~2.6.3",
     "moment": "~2.0.0",
-    "docpad-plugin-cleanurls": "~2.4.3"
-  }
+    "docpad-plugin-cleanurls": "~2.5.0",
+    "docpad": "~6.45.0"
+  },
+  "devDependencies": {}
 }

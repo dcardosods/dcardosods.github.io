@@ -59,10 +59,23 @@ docpadConfig = {
                     external: true
             ]
 
+            # Services
+            services:
+                googleAnalytics: 'UA-39634419-1'
+
         # Config from external services
         external:
             # Gravatar image url
             gravatar: "http://www.gravatar.com/avatar/671f2bfb88fb1f9d0d77b2d150dae533.png"
+
+        # Environments
+        environments:
+            # Development environment
+            development:
+                templateData:
+                    site:
+                        services:
+                            googleAnalytics: false
 
         # -----------------------------
         # Helper Functions

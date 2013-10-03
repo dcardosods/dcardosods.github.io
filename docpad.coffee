@@ -66,16 +66,6 @@ docpadConfig = {
             # Gravatar image url
             gravatar: "http://www.gravatar.com/avatar/671f2bfb88fb1f9d0d77b2d150dae533.png"
 
-        # Environments
-        environments:
-            # Development environment
-            development:
-                templateData:
-                    site:
-                        services:
-                            googleAnalytics: false
-                            disqus: 'danielcardoso-com-br-development'
-
         # -----------------------------
         # Helper Functions
 
@@ -102,6 +92,17 @@ docpadConfig = {
 
         # Format the passed date, by default format like: Thursday, November 29 2012 3:53 PM
         formatDate: (date, format = 'DD/MM/YYYY') -> moment(date).format(format)
+
+    # Environments
+    # Allows us to set custom configuration for specific environments
+    environments:
+        # Development environment
+        development:
+            templateData:
+                site:
+                    services:
+                        googleAnalytics: false
+                        disqus: 'danielcardoso-com-br-development'
 
 }
 

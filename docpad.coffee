@@ -53,10 +53,9 @@ docpadConfig = {
                     title: "Ir para a página inicial"
                     excludeFrom: "index"
                 ,
-                    href: "//about.me/dcardosods/"
+                    href: "/sobre"
                     text: "Sobre"
                     title: "Sobre Daniel Cardoso"
-                    external: true
             ]
 
             # Services

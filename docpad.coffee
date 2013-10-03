@@ -36,8 +36,8 @@ docpadConfig = {
 
             # Styles
             styles: [
-                "/vendor/font-awesome.css"
-                "/styles/style.css"
+                "vendor/font-awesome.css"
+                "styles/style.css"
             ]
 
             # Scripts

@@ -12,7 +12,8 @@
     "moment": "~2.0.0",
     "docpad-plugin-cleanurls": "~2.5.1",
     "docpad": "~6.53.1",
-    "docpad-plugin-services": "~2.4.2"
+    "docpad-plugin-services": "~2.4.2",
+    "docpad-plugin-ghpages": "~2.4.0"
   },
   "devDependencies": {}
 }

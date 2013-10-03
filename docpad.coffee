@@ -41,10 +41,7 @@ docpadConfig = {
             ]
 
             # Scripts
-            scripts: [
-                "/vendor/jquery.js"
-                "/scripts/script.js"
-            ]
+            scripts: []
 
             # Navigation
             nav: [
@@ -61,7 +58,7 @@ docpadConfig = {
 
             # Services
             services:
-                googleAnalytics: 'UA-39634419-1',
+                googleAnalytics: 'UA-39634419-1'
                 disqus: 'danielcardoso-com-br'
 
         # Config from external services
@@ -76,7 +73,7 @@ docpadConfig = {
                 templateData:
                     site:
                         services:
-                            googleAnalytics: false,
+                            googleAnalytics: false
                             disqus: 'danielcardoso-com-br-development'
 
         # -----------------------------

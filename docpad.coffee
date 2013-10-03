@@ -51,11 +51,12 @@ docpadConfig = {
                     href: "/"
                     text: "Home"
                     title: "Ir para a página inicial"
-                    excludeFrom: "index"
+                    excludeFrom: "page"
                 ,
                     href: "/sobre"
                     text: "Sobre"
                     title: "Sobre Daniel Cardoso"
+                    excludeFrom: "page"
             ]
 
             # Services

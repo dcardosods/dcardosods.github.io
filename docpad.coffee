@@ -58,7 +58,11 @@ docpadConfig = {
 
             # Services
             services:
-                googleAnalytics: 'UA-39634419-1'
+                # TODO Should be removed if my pull request was accepted
+                # For this works make sure that current branch of local docpad-plugin-services
+                # repository has this implementend and is linked on npm (npm link)
+                # Lastly run ```npm link docpad-plugin-services```
+                googleAnalyticsUniversal: 'UA-44597517-1'
                 disqus: 'danielcardoso-com-br'
 
         # Config from external services
@@ -101,7 +105,7 @@ docpadConfig = {
             templateData:
                 site:
                     services:
-                        googleAnalytics: false
+                        googleAnalyticsUniversal: false
                         disqus: 'danielcardoso-com-br-development'
 
 }

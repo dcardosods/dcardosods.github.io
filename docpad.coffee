@@ -36,8 +36,8 @@ docpadConfig = {
 
             # Styles
             styles: [
-                "vendor/font-awesome.css"
-                "styles/style.css"
+                "/vendor/font-awesome.css"
+                "/styles/style.css"
             ]
 
             # Scripts
@@ -53,6 +53,7 @@ docpadConfig = {
                     href: "/sobre"
                     text: "Sobre"
                     title: "Sobre Daniel Cardoso"
+                    excludeFrom: "page"
             ]
 
             # Services

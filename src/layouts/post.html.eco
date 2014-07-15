@@ -5,7 +5,7 @@ layout: default
 <section>
     <article>
         <header>
-            <h1>
+            <h1 class="post-title">
                 <a href="<%= @document.url %>" rel="bookmark" title="<%- @document.title %>">
                     <%- @document.title %>
                 </a>

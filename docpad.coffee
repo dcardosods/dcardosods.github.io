@@ -63,6 +63,14 @@ docpadConfig = {
         formatDate: (date, format = 'DD/MM/YYYY') -> moment(date).format(format)
 
     #
+    # Collections
+
+    collections:
+        posts: ->
+            @getCollection('html').findAllLive({relativeDirPath: 'posts'}, [{date: -1}]).on 'add', (model) ->
+                model.setMetaDefaults({layout: 'post'})
+
+    #
     # Environments
 
     environments:

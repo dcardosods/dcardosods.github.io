@@ -1,11 +1,16 @@
 ---
-title: Sobre
+title: Quem sou eu?
 layout: page
 isPage: true
 ---
 
-Trabalho como Desenvolvedor Front-end, nasci e moro no Rio Grande do Sul.
+Sou um Desenvolvedor Frontend, gaúcho e brasileiro.
 
-Aprendi a gostar desse mundo do desenvolvimento web, e não me vejo mais fazendo outra coisa. Procuro sempre me manter atualizado com as novas tecnologias, métodos e soluções que surgem.
+Eu faço código, gosto de guias de estilo e de automatizar processos.
 
-Por aqui, vou procurar compartilhar conhecimento e experiências. Isso aqui é algo novo pra mim, então qualquer crítica, dúvida ou sugestão será bem-vinda.
+Além de código, UI, UX e acessibilidade também me interessam.
+
+Quando não estou escrevendo código, eu gosto de ler, correr, jogar futebol e sair com os amigos para tomar um chimas vendo o pôr do sol :).
+
+---
+* [English version](/en/about)

@@ -30,12 +30,12 @@ docpadConfig = {
             nav: [
                     href: '/'
                     text: 'Home'
-                    title: 'Ir para a página inicial'
+                    title: 'Ir para a página inicial / Go to home page'
                     excludeFrom: 'index'
                 ,
                     href: '/sobre'
-                    text: 'Sobre'
-                    title: 'Sobre Daniel Cardoso'
+                    text: 'Sobre / About'
+                    title: 'Sobre Daniel Cardoso / About Daniel Cardoso'
                     excludeFrom: 'page'
             ]
             services:

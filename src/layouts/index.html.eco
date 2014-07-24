@@ -6,12 +6,12 @@ layout: default
     <% for post in @getCollection('posts').toJSON(): %>
         <article>
             <header>
-                <h1 class="post-title">
+                <h1>
                     <a href="<%= post.url %>" rel="bookmark" title="<%- post.title %>">
                         <%- post.title %>
                     </a>
                 </h1>
-                <p class="post-date">
+                <p>
                     <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
                         <%= @formatDate(@document.date) %>
                     </time>

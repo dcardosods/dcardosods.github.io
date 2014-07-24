@@ -1,18 +1,7 @@
-/* Mixins */
-.border-bottom (@color) {
-    border-bottom: 1px solid @color;
-    border-bottom: 1px solid rgba(0, 0, 0, .3);
-}
-.border-top (@color) {
-    border-top: 1px solid @color;
-    border-top: 1px solid rgba(0, 0, 0, .3);
-}
-
 /* Globals */
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 75%;
-    /*background: url('/img/design/mobile-first-grid.png') no-repeat;*/
     margin: 0;
     color: #333;
 }
@@ -27,13 +16,11 @@ h1 {
 p {
     font-size: 1.333333333em;
     line-height: 1.5em;
-    /* TODO
-    max-width: 36em; */
 }
 
 /* Header */
 header {
-    .border-bottom(#333);
+    border-bottom: 1px solid #333;
     padding: 0.75em;
 }
 .site-header {
@@ -64,7 +51,7 @@ header {
 }
 .list-item {
     line-height: 2em;
-    .border-bottom(#000);
+    border-bottom: 1px solid #333;
     display: inline-block;
     margin: 0 0.5em;
 }
@@ -93,7 +80,7 @@ header {
 
 /* Footer */
 footer {
-    .border-top(#333);
+    border-top: 1px solid #333;
     padding: 0.75em;
 }
 

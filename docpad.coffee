@@ -79,7 +79,7 @@ docpadConfig = {
                 site:
                     services:
                         googleAnalytics: false
-                        disqus: 'danielcardoso-com-br-development'
+                        disqus: false
 
 }
 

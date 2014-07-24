@@ -1,11 +1,11 @@
 ---
-title: Fluent Conference 2014 Complete Video Compilation By O'Reilly Media, Inc; O'Reilly Media.
+title: Fluent Conference 2014 Complete Video Compilation By O‘Reilly Media, Inc; O‘Reilly Media.
 excerpt: Review of the keynotes, talks and workshops of Fluent Conference 2014.
 layout: post
 isPage: false
 ---
 
-This post is my first review for the O’Reilly Blogger Review Program. As part of that program I have free access to some O'Reilly publications.
+This post is my first review for the O‘Reilly Blogger Review Program. As part of that program I have free access to some O‘Reilly publications.
 
 The video compilation of Fluent Conference show lots of Web authoring best practices, by well known people that are ruling the Web forward.
 

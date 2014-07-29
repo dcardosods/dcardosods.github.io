@@ -15,6 +15,12 @@
     <%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
+    <header>
+
+    </header>
+    <aside>
+        <%- @partial('nav.html.eco', {menuItems: @generateMenu(@document.url)}) %>
+    </aside>
     <main>
         <%- @content %>
     </main>

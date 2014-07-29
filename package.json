@@ -14,7 +14,9 @@
     "docpad-plugin-partials": "~2.9.1",
     "docpad-plugin-services": "~2.6.0",
     "moment": "~2.0.0",
-    "suitcss-base": "^0.7.0"
+    "suitcss-base": "^0.7.0",
+    "suitcss-components-grid": "^2.0.1",
+    "suitcss-utils-size": "^0.7.1"
   },
   "devDependencies": {}
 }

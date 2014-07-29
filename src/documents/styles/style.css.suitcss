@@ -1,1 +1,5 @@
 @import "suitcss-base";
+@import "suitcss-utils-size";
+@import "suitcss-components-grid";
+
+@custom-media --md-viewport screen and (min-width: 745px);

@@ -1,0 +1,13 @@
+.Post {
+    font-size: 14px;
+    padding: 1em;
+}
+.Post header h1 {
+    font-family: var(--display-font-family);
+}
+.Post-content p:first-child {
+    margin-top: 0.706em;
+}
+.Post-content p + p {
+    margin-top: 0.618em;
+}

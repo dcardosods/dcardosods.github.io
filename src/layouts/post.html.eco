@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section>
-    <article>
+    <article class="Post">
         <header>
             <h1>
                 <a href="<%= @document.url %>" rel="bookmark" title="<%- @document.title %>">
@@ -16,7 +16,9 @@ layout: default
                 </time>
             </p>
         </header>
-        <%- @content %>
+        <div class="Post-content u-markdown">
+            <%- @content %>
+        </div>
     </article>
     <%- @getDisqus() %>
 </section>

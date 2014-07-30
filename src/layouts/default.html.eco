@@ -12,6 +12,7 @@
     <%- @getBlock('meta').toHTML() %>
 
     <!-- Styles -->
+    <link href='http://fonts.googleapis.com/css?family=Economica|Roboto' rel='stylesheet'>
     <%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body class="Grid">

@@ -1,7 +1,6 @@
 @import "suitcss-base";
 @import "suitcss-utils-size";
 @import "suitcss-components-grid";
-@import "./components/utils/markdown";
 @import "./components/nav";
 @import "./components/post";
 
@@ -10,6 +9,8 @@
     --display-font-family: Economica, var(--text-font-family);
 
     /* suitcss-base */
+    --base-background: #FDF8F8;
+    --base-color: #333;
     --base-font: 100% var(--text-font-family);
 }
 

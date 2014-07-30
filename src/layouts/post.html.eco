@@ -4,19 +4,19 @@ layout: default
 
 <section>
     <article class="Post">
-        <header>
+        <header class="Post-header">
             <h1>
                 <a href="<%= @document.url %>" rel="bookmark" title="<%- @document.title %>">
                     <%- @document.title %>
                 </a>
             </h1>
-            <p>
+            <p class="Post-infos">
                 <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
                     <%= @formatDate(@document.date) %>
                 </time>
             </p>
         </header>
-        <div class="Post-content u-markdown">
+        <div class="Post-content">
             <%- @content %>
         </div>
     </article>

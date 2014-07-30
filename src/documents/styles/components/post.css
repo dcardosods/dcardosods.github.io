@@ -1,13 +1,55 @@
 .Post {
-    font-size: 14px;
-    padding: 1em;
+    font-size: 18px;
+    padding: 0 0.778em 0.778em;
 }
-.Post header h1 {
+.Post h1, .Post h2, .Post h3 {
+    line-height: 1.258;
+    margin: 0.778em 0 0.481em 0;
+}
+.Post-header h1 {
     font-family: var(--display-font-family);
+    font-size: 2.618em;
 }
-.Post-content p:first-child {
-    margin-top: 0.706em;
+.Post-infos {
+    padding-right: 1.416rem;
+    text-align: right;
+}
+.Post-infos time {
+    font-style: italic;
+}
+.Post-content {
+    padding-top: 1.258em;
+}
+.Post-content p {
+    max-width: 41.099rem;
+    line-height: 1.618;
 }
 .Post-content p + p {
-    margin-top: 0.618em;
+    margin-top: 0.778em;
+}
+.Post-content h1 {
+    font-size: 2.036em;
+}
+.Post-content h2 {
+    font-size: 1.618em;
+}
+.Post-content h3 {
+    font-size: 1.258em;
+}
+.Post-content blockquote {
+    margin: 0.481em 0;
+    padding-left: 1.416rem;
+    font-style: italic;
+    color: #666;
+}
+.Post-content ul, ol {
+    list-style-position: inside;
+    padding-left: 0.875rem;
+    margin: 0.481em 0 0.778em 0;
+}
+.Post-content ul {
+    list-style-type: disc;
+}
+.Post-content ol {
+    list-style-type: decimal;
 }

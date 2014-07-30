@@ -4,7 +4,7 @@ layout: default
 
 <section>
     <% for post in @getCollection('posts').toJSON(): %>
-        <article class="Post">
+        <article>
             <header>
                 <h1>
                     <a href="<%= post.url %>" rel="bookmark" title="<%- post.title %>">

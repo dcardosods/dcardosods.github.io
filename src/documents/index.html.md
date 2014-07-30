@@ -3,7 +3,7 @@ layout: index
 isPage: true
 ---
 
-<article class="Post">
+<article>
     <header>
         <h1>
             <a href="//medium.com/@dcardosods/eu-quero-me-conhecer-adf6232f3eb4" rel="bookmark" title="Eu quero me conhecer" target="_blank">

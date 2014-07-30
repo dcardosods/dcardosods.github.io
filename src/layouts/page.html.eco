@@ -7,6 +7,8 @@ layout: default
         <header>
             <h1><%- @document.title %></h1>
         </header>
-        <%- @content %>
+        <div class="u-markdown">
+            <%- @content %>
+        </div>
     </article>
 </section>

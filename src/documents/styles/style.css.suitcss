@@ -1,6 +1,7 @@
 @import "suitcss-base";
 @import "suitcss-utils-size";
 @import "suitcss-components-grid";
+@import "./components/utils/markdown";
 @import "./components/nav";
 @import "./components/post";
 

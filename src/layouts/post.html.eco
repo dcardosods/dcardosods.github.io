@@ -16,7 +16,7 @@ layout: default
                 </time>
             </p>
         </header>
-        <div class="Post-content">
+        <div class="Post-content u-markdown">
             <%- @content %>
         </div>
     </article>

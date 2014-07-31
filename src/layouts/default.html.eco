@@ -17,16 +17,21 @@
 </head>
 <body class="Grid">
     <div class="Grid-cell u-md-size4of12">
-        <div class="Grid Grid--alignMiddle">
-            <header class="Grid-cell u-size6of12 u-md-sizeFull">
-                <a href="/">
-                    <img src="http://en.gravatar.com/avatar/671f2bfb88fb1f9d0d77b2d150dae533?s=100" alt="">
-                </a>
-            </header>
-            <aside class="Grid-cell u-size6of12 u-md-sizeFull">
-                <%- @partial('nav.html.eco', {menuItems: @generateMenu(@document.url)}) %>
-            </aside>
-        </div>
+        <header class="Profile Grid--withGutter Grid--alignMiddle">
+            <a class="Profile-image Grid-cell u-sizeAuto" href="/">
+                <img src="http://en.gravatar.com/avatar/671f2bfb88fb1f9d0d77b2d150dae533?s=100" alt="">
+            </a>
+            <div class="Grid-cell u-sizeAuto">
+                <h1 class="Profile-title"><%= @site.title %></h1>
+            </div>
+            <a class="Profile-description--link Grid-cell" href="/sobre">Quem sou eu?</a>
+            <div class="Profile-description Grid-cell u-markdown">
+                <p>Sou um Desenvolvedor Frontend, gaúcho e brasileiro.</p>
+                <p>Eu faço código, gosto de guias de estilo e de automatizar processos.</p>
+                <p>Além de código, UI, UX e acessibilidade também me interessam.</p>
+                <p>Quando não estou escrevendo código, eu gosto de ler, correr, jogar futebol e sair com os amigos para tomar um chimas vendo o pôr do sol :).</p>
+            </div>
+        </header>
     </div>
     <main class="Grid-cell u-md-size8of12">
         <%- @content %>

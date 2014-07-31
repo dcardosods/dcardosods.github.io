@@ -1,0 +1,32 @@
+.Profile {
+    padding: 1.416rem;
+}
+.Profile-image {
+
+}
+.Profile-image img {
+    border: 3px solid #FFF;
+    border-radius: 100% 70%;
+}
+.Profile-title {
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    font-size: 2.291rem;
+    font-family: var(--display-font-family);
+}
+.Profile-description {
+    display: none;
+    font-size: 18px;
+}
+.Profile-description p:first-of-type {
+    padding-top: 1.258em;
+}
+
+@media (--md-viewport) {
+    .Profile-description {
+        display: block;
+    }
+    .Profile-description--link {
+        display: none;
+    }
+}

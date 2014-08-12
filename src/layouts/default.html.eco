@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="<%= @site.lang %>">
 <head>
     <!-- Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
     <title><%= @getPreparedTitle() %></title>
-    <meta name="description" content="<%= @getPreparedDescription() %>" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<%= @getPreparedDescription() %>">
     <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
     <meta name="author" content="<%= @site.author or '' %>" />
     <%- @getBlock('meta').toHTML() %>
 
-    <!-- Shims: IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-        <script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <!-- Styles -->
+    <link href='http://fonts.googleapis.com/css?family=Economica|Roboto' rel='stylesheet'>
     <%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
-<body>
-    <div class="wrapper clearfix">
-        <%-  @partial('header.html.eco', { url: @site.url, gravatar: @external.gravatar }) %>
-        <%- @partial('nav.html.eco', { nav: @site.nav, currentLayout: @document.layout }) %>
-        <div class="main">
-            <%- @content %>
-        </div>
-        <%- @partial('footer.html.eco') %>
+<body class="Grid">
+    <div class="Grid-cell u-md-size4of12">
+        <header class="Profile Grid--withGutter Grid--alignMiddle">
+            <a class="Profile-image Grid-cell u-sizeAuto" href="/">
+                <img src="http://en.gravatar.com/avatar/671f2bfb88fb1f9d0d77b2d150dae533?s=100" alt="">
+            </a>
+            <div class="Grid-cell u-sizeAuto">
+                <h1 class="Profile-title"><%= @site.title %></h1>
+            </div>
+            <div class="Profile-description Grid-cell u-markdown">
+                <p>Sou um Desenvolvedor Front-end, gaúcho e brasileiro.</p>
+                <p>Eu faço código, gosto de guias de estilo e de automatizar processos.</p>
+                <p>Além de código, UI, UX e acessibilidade também me interessam.</p>
+                <p>Quando não estou escrevendo código, eu gosto de ler, correr, jogar futebol e sair com os amigos para tomar um chimas.</p>
+                <blockquote lang="en">
+                    <p>I'm a Front-end Developer from Brazil.</p>
+                    <p>I do code and I like style guides and process automation.</p>
+                    <p>Besides code, UI, UX and accessibility have my interest.</p>
+                    <p>When I'm not typing code, I like read, run, play soccer and go out with friends to drink chimarrão.</p>
+                </blockquote>
+                <p>
+                    Nas interwebs você pode me encontrar no <a href="//twitter.com/dcardosods/" target="_blank">Twitter</a>,
+                    <a href="//github.com/dcardosods/" target="_blank">Github</a>,
+                    <a href="//linkedin.com/in/dcardosods/" target="_blank">Linkedin</a>,
+                    <a href="//facebook.com/dcardosods/" target="_blank">Facebook</a>.
+                </p>
+                <blockquote lang="en">
+                    <p>
+                        You can reach me on <a href="//twitter.com/dcardosods/" target="_blank">Twitter</a>,
+                        <a href="//github.com/dcardosods/" target="_blank">Github</a>,
+                        <a href="//linkedin.com/in/dcardosods/" target="_blank">Linkedin</a>,
+                        <a href="//facebook.com/dcardosods/" target="_blank">Facebook</a>.
+                    </p>
+                </blockquote>
+                <p>Fique à vontade e faça contato &#x1F600.</p>
+                <blockquote lang="en">
+                    <p>Don't be shy and make contact &#x1F600.</p>
+                </blockquote>
+            </div>
+        </header>
     </div>
+    <main class="Grid-cell u-md-size8of12">
+        <%- @content %>
+    </main>
+
     <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>
 </html>

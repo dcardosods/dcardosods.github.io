@@ -1,0 +1,36 @@
+.u-markdown {
+    padding-top: 1.258em;
+}
+.u-markdown p {
+    max-width: 41.099rem;
+    line-height: 1.618;
+}
+.u-markdown p + p {
+    margin-top: 0.778em;
+}
+.u-markdown h1 {
+    font-size: 2.036em;
+}
+.u-markdown h2 {
+    font-size: 1.618em;
+}
+.u-markdown h3 {
+    font-size: 1.258em;
+}
+.u-markdown blockquote {
+    margin: 0.481em 0;
+    padding-left: 1.416rem;
+    font-style: italic;
+    color: #666;
+}
+.u-markdown ul, ol {
+    list-style-position: inside;
+    padding-left: 0.875rem;
+    margin: 0.481em 0 0.778em 0;
+}
+.u-markdown ul {
+    list-style-type: disc;
+}
+.u-markdown ol {
+    list-style-type: decimal;
+}

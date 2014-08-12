@@ -1,0 +1,26 @@
+@import "suitcss-base";
+@import "suitcss-utils-size";
+@import "suitcss-components-grid";
+@import "./components/utils/markdown";
+@import "./components/nav";
+@import "./components/profile";
+@import "./components/post";
+
+:root {
+    --text-font-family: Roboto, sans-serif;
+    --display-font-family: Economica, var(--text-font-family);
+
+    /* suitcss-base */
+    --base-background: #FDF8F8;
+    --base-color: #333;
+    --base-font: 100% var(--text-font-family);
+
+    /* suitcss-grid */
+    --Grid-gutter-size: 1.285rem;
+}
+
+@custom-media --md-viewport screen and (min-width: 745px);
+
+.u-sizeAuto {
+    width: auto !important;
+}

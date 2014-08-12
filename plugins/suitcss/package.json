@@ -1,0 +1,38 @@
+{
+  "name": "docpad-plugin-rework",
+  "version": "2.0.0",
+  "description": "DocPad plugin that adds the ability to render SUIT CSS compliant styles into CSS",
+  "homepage": "https://github.com/dcardosods/docpad-plugin-rework",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "suit",
+    "css",
+    "rework"
+  ],
+  "author": "Daniel Cardoso <danielcardosods@gmail.com> (http://danielcardoso.com.br)",
+  "maintainers": [
+    "Daniel Cardoso <danielcardosods@gmail.com> (https://github.com/dcardosods)"
+  ],
+  "contributors": [
+    "Daniel Cardoso <danielcardosods@gmail.com> (https://github.com/dcardosods)"
+  ],
+  "bugs": {
+    "url": "https://github.com/dcardosods/docpad-plugin-rework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcardosods/docpad-plugin-rework.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "main": "./src/suitcss.plugin.coffee",
+  "dependencies": {
+    "rework": "^1.0.0",
+    "rework-suit": "^4.0.0"
+  }
+}

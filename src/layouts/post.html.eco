@@ -3,20 +3,22 @@ layout: default
 ---
 
 <section>
-    <article>
-        <header>
-            <h1 class="post-title">
+    <article class="Post" lang="<%= @document.lang %>">
+        <header class="Post-header">
+            <h1>
                 <a href="<%= @document.url %>" rel="bookmark" title="<%- @document.title %>">
                     <%- @document.title %>
                 </a>
             </h1>
-            <p class="post-date">
+            <p class="Post-infos">
                 <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
                     <%= @formatDate(@document.date) %>
                 </time>
             </p>
         </header>
-        <%- @content %>
+        <div class="Post-content u-markdown">
+            <%- @content %>
+        </div>
     </article>
     <%- @getDisqus() %>
 </section>

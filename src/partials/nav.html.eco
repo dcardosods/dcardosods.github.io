@@ -1,13 +1,23 @@
+<!-- Define `renderMenu` partial -->
+<% renderMenu = (items) => %>
 <nav>
-    <ul class="list">
-        <% for item in @nav: %>
-            <% if @currentLayout isnt item.excludeFrom: %>
-                <li class="list-item">
-                    <a href="<%= item.href %>" title="<%- item.title || item.text %>"
-                        <% if item.external: %>target="_blank" <%= end %>
-                        class="list-item-link"><%- item.text %></a>
-                </li>
-            <% end %>
+    <ul>
+        <% for item in items: %>
+            <li>
+                <!-- Remove link if we’re currently viewing this document -->
+                <% if item.state != 'current': %>
+                    <a href="<%= item.url %>"><%= item.title %></a>
+                <% else: %>
+                    <strong><%= item.title %></strong>
+                <% end %>
+                <!-- Render submenu if item has children -->
+                <% if item.children: %>
+                    <%- renderMenu(item.children) %>
+                <% end %>
+            </li>
         <% end %>
     </ul>
 </nav>
+<% end %>
+<!-- Run `renderMenu` partial aginst passed `menuItems` meta-data  -->
+<%= renderMenu @menuItems %>

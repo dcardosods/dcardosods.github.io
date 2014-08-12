@@ -4,20 +4,20 @@ layout: default
 
 <section>
     <% for post in @getCollection('posts').toJSON(): %>
-        <article>
-            <header>
+        <article class="Post">
+            <header class="Post-header">
                 <h1>
                     <a href="<%= post.url %>" rel="bookmark" title="<%- post.title %>">
                         <%- post.title %>
                     </a>
                 </h1>
-                <p>
+                <p class="Post-infos">
                     <time datetime="<%= @formatDate(@document.date, 'YYYY-MM-DD') %>">
                         <%= @formatDate(@document.date) %>
                     </time>
                 </p>
             </header>
-            <p>
+            <p class="Post-excerpt">
                 <%- post.excerpt %>
             </p>
         </article>

@@ -10,7 +10,7 @@
     font-family: var(--display-font-family);
     font-size: 2.618em;
 }
-.Post-infos {
+.Post-infos, .Post-excerpt {
     padding-right: 1.416rem;
     text-align: right;
 }

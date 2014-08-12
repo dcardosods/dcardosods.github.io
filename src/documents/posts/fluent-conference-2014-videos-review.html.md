@@ -3,6 +3,7 @@ title: Fluent Conference 2014 Complete Video Compilation By O‘Reilly Media, In
 excerpt: Review of the keynotes, talks and workshops of Fluent Conference 2014.
 layout: post
 isPage: false
+lang: en
 ---
 
 This post is my first review for the [O‘Reilly Blogger Review Program](http://www.oreilly.com/reviews/index.csp). As part of that program I have free access to some O‘Reilly publications.

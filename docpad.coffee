@@ -16,6 +16,7 @@ docpadConfig = {
             url: 'http://danielcardoso.com.br'
             title: 'Daniel Cardoso'
             author: 'Daniel Cardoso'
+            lang: 'pt-BR'
             description: """
                 Daniel Cardoso, Front-end Developer
                 """

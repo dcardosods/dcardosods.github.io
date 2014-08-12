@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section>
-    <article class="Post">
+    <article class="Post" lang="<%= @document.lang %>">
         <header class="Post-header">
             <h1>
                 <a href="<%= @document.url %>" rel="bookmark" title="<%- @document.title %>">

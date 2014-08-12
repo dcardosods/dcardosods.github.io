@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= @site.lang %>">
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -24,12 +24,35 @@
             <div class="Grid-cell u-sizeAuto">
                 <h1 class="Profile-title"><%= @site.title %></h1>
             </div>
-            <a class="Profile-description--link Grid-cell" href="/sobre">Quem sou eu?</a>
             <div class="Profile-description Grid-cell u-markdown">
-                <p>Sou um Desenvolvedor Frontend, gaúcho e brasileiro.</p>
+                <p>Sou um Desenvolvedor Front-end, gaúcho e brasileiro.</p>
                 <p>Eu faço código, gosto de guias de estilo e de automatizar processos.</p>
                 <p>Além de código, UI, UX e acessibilidade também me interessam.</p>
-                <p>Quando não estou escrevendo código, eu gosto de ler, correr, jogar futebol e sair com os amigos para tomar um chimas vendo o pôr do sol :).</p>
+                <p>Quando não estou escrevendo código, eu gosto de ler, correr, jogar futebol e sair com os amigos para tomar um chimas.</p>
+                <blockquote lang="en">
+                    <p>I'm a Front-end Developer from Brazil.</p>
+                    <p>I do code and I like style guides and process automation.</p>
+                    <p>Besides code, UI, UX and accessibility have my interest.</p>
+                    <p>When I'm not typing code, I like read, run, play soccer and go out with friends to drink chimarrão.</p>
+                </blockquote>
+                <p>
+                    Nas interwebs você pode me encontrar no <a href="//twitter.com/dcardosods/" target="_blank">Twitter</a>,
+                    <a href="//github.com/dcardosods/" target="_blank">Github</a>,
+                    <a href="//linkedin.com/in/dcardosods/" target="_blank">Linkedin</a>,
+                    <a href="//facebook.com/dcardosods/" target="_blank">Facebook</a>.
+                </p>
+                <blockquote lang="en">
+                    <p>
+                        You can reach me on <a href="//twitter.com/dcardosods/" target="_blank">Twitter</a>,
+                        <a href="//github.com/dcardosods/" target="_blank">Github</a>,
+                        <a href="//linkedin.com/in/dcardosods/" target="_blank">Linkedin</a>,
+                        <a href="//facebook.com/dcardosods/" target="_blank">Facebook</a>.
+                    </p>
+                </blockquote>
+                <p>Fique à vontade e faça contato &#x1F600.</p>
+                <blockquote lang="en">
+                    <p>Don't be shy and make contact &#x1F600.</p>
+                </blockquote>
             </div>
         </header>
     </div>

@@ -15,18 +15,8 @@
     font-family: var(--display-font-family);
 }
 .Profile-description {
-    display: none;
     font-size: 18px;
 }
 .Profile-description p:first-of-type {
     padding-top: 1.258em;
-}
-
-@media (--md-viewport) {
-    .Profile-description {
-        display: block;
-    }
-    .Profile-description--link {
-        display: none;
-    }
 }

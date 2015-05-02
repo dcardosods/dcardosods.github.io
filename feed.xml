@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniel's blog</title>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://localhost:8080</link>
+    <description>Just putting myself on the internets</description>
+    <pubDate>Tue, 12  Aug 2014 20:00:00 -0400</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Fluent Conference 2014 Complete Video Compilation By O‘Reilly Media, Inc; O‘Reilly Media.</title>
+      <link>http://localhost:8080/articles/fluent-conference-2014-videos-review/</link>
+      <pubDate>Tue, 12  Aug 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/fluent-conference-2014-videos-review/</guid>
+      <author></author>
+      <description>&lt;p&gt;This post is my first review for the &lt;a href=&quot;http://www.oreilly.com/reviews/index.csp&quot;&gt;O‘Reilly Blogger Review Program&lt;/a&gt;. As part of that program I have free access to some O‘Reilly publications.&lt;/p&gt;
+&lt;p&gt;The video compilation of Fluent Conference show lots of Web authoring best practices, by well known people that are ruling the Web forward.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The subjects are diverse. &lt;em&gt;HTML5, Javascript, CSS3, Web Components, MV* Web Frameworks (Angular, Ember), performance, team management, open source communities, etc.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Javascript is pointed as the &lt;strong&gt;Web’s assembler&lt;/strong&gt; and is the subject of several keynotes. Stating its history and how it’s evolving through its versions, addressing high and low level problems that allow us to build things from common web pages to complex 3d games or to do heavy mathematical operations.
+&lt;em&gt;ES6&lt;/em&gt; is presented by some TC39 chairs among others. On that topic I highlight &lt;a href=&quot;https://twitter.com/guybedford&quot;&gt;Guy Bedford&lt;/a&gt; talk. He demonstrates a possible workflow to use the new module syntax and loaders right now, been able to compile into our current popular module systems (&lt;em&gt;AMD&lt;/em&gt; and &lt;em&gt;CommonJS&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; is in the evolutionary path though, pushing the experience of browsing the Web to be much more enjoyable. It’s also very fun, and allow us to creatively experiment. &lt;a href=&quot;https://twitter.com/LeaVerou&quot;&gt;Lea Verou&lt;/a&gt; gives a talk about one single CSS property, &lt;code&gt;border-radius&lt;/code&gt; showing unimaginable results and the promissory future of that property.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Performance matters&lt;/strong&gt;. The goods to make pages more performatively and tips to avoid frustrating the user are very well covered. &lt;a href=&quot;https://twitter.com/Souders&quot;&gt;Steve Souders&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/paul_irish&quot;&gt;Paul Irish&lt;/a&gt;, and some others talk about that subject.&lt;/p&gt;
+&lt;p&gt;There is a joke in the Javascript community that…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Each day a new framework raise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Its true we have hundreds of framework choices, but today two of them reach a high level of adoption. &lt;em&gt;Angular&lt;/em&gt; and &lt;em&gt;Ember&lt;/em&gt; are the subject of keynotes, talks and workshops. It seems that a kind of war happens between them, and as good and bad points of each are discussed during the Conference, after watch the videos you’ll have knowledge background to choose the one that better fits your necessities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/ebidel&quot;&gt;Eric Bidelman&lt;/a&gt; is one who talks about &lt;strong&gt;Web Components&lt;/strong&gt;. Web Components is a set of new technologies that will change the way we build for the Web in the future. To use that in our current workflow we need some polyfills. &lt;em&gt;Polymer&lt;/em&gt; is one of these, and is much more that only a polyfill. It puts together a abstraction layer on the specification, a set of core elements and a UI style-guide, and has a drag/drop kind design tool for rapid prototypping. &lt;a href=&quot;https://twitter.com/mbleigh&quot;&gt;Michael Bleigh&lt;/a&gt; teaches Web Components in one of the event’s workshops.&lt;/p&gt;
+&lt;p&gt;To summarize:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think the material &lt;strong&gt;is not focused in beginners&lt;/strong&gt;, as it shows some advanced aspects of the Web technologies and new stuff that are in the near future path.&lt;/p&gt;
+&lt;p&gt;Some of the talks are available on &lt;em&gt;YouTube&lt;/em&gt;, so I recommend you check these and have a aperitif of how Fluent Conference 2014 was.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt; &lt;em&gt;I’ve not watched all the videos at the time I’m publishing the review. I’ll evolve this post if I find more interesting points about the content.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

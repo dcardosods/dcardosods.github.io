@@ -2,11 +2,13 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import logo from '../images/daniel-cardoso-ds.svg'
+
 const Header = ({ siteTitle }) => (
-  <div>
+  <div style={{ textAlign: 'center' }}>
     <h1>
       <Link to="/">
-        {siteTitle}
+        <img src={logo} alt={siteTitle} />
       </Link>
     </h1>
   </div>

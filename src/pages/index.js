@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <p>
+    <p style={{ textAlign: 'center' }}>
       A Frontend Developer, who{' '}
       <a
         href="https://instagram.com/dcardosods"

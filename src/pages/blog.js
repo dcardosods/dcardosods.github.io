@@ -19,10 +19,10 @@ const BlogPage = ({ data }) => (
     {data.allMarkdownRemark.edges.map(({ node }, i) => (
       <article key={node.fields.slug}>
         <header>
-          <span>{node.frontmatter.date}</span>
-          <Link to={node.fields.slug}>
-            <h2>{node.frontmatter.title}</h2>
-          </Link>
+          <h2>
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+          </h2>
+          <p>{node.frontmatter.date}</p>
         </header>
         <p>{node.excerpt}</p>
       </article>

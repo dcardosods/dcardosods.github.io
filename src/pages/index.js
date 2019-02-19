@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -8,23 +10,28 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <p style={{ fontSize: '48px', marginTop: '2.175rem' }}>
-      Hi, I'm Daniel.
+      <span aria-label="a waving hand" role="img">
+        👋
+      </span>{' '}
+      Hey y'all!
       <br />
-      <br />A Frontend Developer, who{' '}
+      <br />
+      I'm <strong>Daniel</strong>. A Frontend Developer and travel aficionado
+      from Brazil. Read <Link to="/blog">my writings</Link>, check{' '}
       <a
-        href="https://instagram.com/dcardosods"
+        href="https://github.com/dcardosods"
         target="_blank"
         rel="noopener noreferrer"
       >
-        travels
+        my code <FontAwesomeIcon icon={faGithub} />
       </a>
-      , <Link to="/blog">writes</Link> and tries to be{' '}
+      , or{' '}
       <a
         href="https://twitter.com/dcardosods"
         target="_blank"
         rel="noopener noreferrer"
       >
-        social
+        say hi <FontAwesomeIcon icon={faTwitter} />
       </a>
       .
     </p>

@@ -10,7 +10,6 @@ const Header = ({ siteTitle }) => (
           padding: '8px',
           display: 'inline-block',
           fontSize: '44px',
-          background: 'grey',
           marginBottom: '1px',
         }}
       >

@@ -10,6 +10,8 @@ const BlogPage = ({ data }) => (
   <Layout>
     <SEO title="Blog" />
 
+    <h2> / blog</h2>
+
     <p style={{ textAlign: 'right' }}>
       Besides the articles below, I also write on{' '}
       <a
@@ -25,10 +27,14 @@ const BlogPage = ({ data }) => (
     {data.allMarkdownRemark.edges.map(({ node }, i) => (
       <article key={node.fields.slug}>
         <header>
-          <h2>
+          <h3>
             <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-          </h2>
-          <p>{node.frontmatter.date}</p>
+          </h3>
+          <p>
+            <time datetime={node.frontmatter.date}>
+              {node.frontmatter.date_formatted}
+            </time>
+          </p>
         </header>
         <p>{node.excerpt}</p>
       </article>
@@ -45,7 +51,8 @@ export const query = graphql`
         node {
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date
+            date_formatted: date(formatString: "DD MMMM, YYYY")
           }
           fields {
             slug

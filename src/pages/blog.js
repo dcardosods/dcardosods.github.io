@@ -8,7 +8,7 @@ const BlogPage = ({ data }) => (
   <Layout>
     <SEO title="Blog" />
 
-    <p>
+    <p style={{ textAlign: 'right' }}>
       Besides the articles below, I also write on{' '}
       <a href="https://medium.com/@dcardosods" target="_black">
         Medium

@@ -2,16 +2,27 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import logo from '../images/daniel-cardoso-ds.svg'
-
 const Header = ({ siteTitle }) => (
-  <div style={{ textAlign: 'center' }}>
-    <h1>
-      <Link to="/">
-        <img src={logo} alt={siteTitle} />
-      </Link>
-    </h1>
-  </div>
+  <header style={{ borderBottom: '1px solid grey' }}>
+    <Link to="/" style={{ background: 'none', textShadow: 'none' }}>
+      <h1
+        style={{
+          padding: '8px',
+          display: 'inline-block',
+          fontSize: '44px',
+          background: 'grey',
+          marginBottom: '1px',
+        }}
+      >
+        <div>Daniel Cardoso</div>
+        <div
+          style={{ textAlign: 'right', fontSize: '20px', marginTop: '-8px' }}
+        >
+          dS
+        </div>
+      </h1>
+    </Link>
+  </header>
 )
 
 Header.propTypes = {

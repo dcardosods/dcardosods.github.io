@@ -2,7 +2,7 @@ import Typography from 'typography'
 import doelgerTheme from 'typography-theme-doelger'
 
 doelgerTheme.overrideThemeStyles = ({ rhythm }, options) => ({
-  main: {
+  body: {
     maxWidth: `960px`,
     margin: `0 auto`,
     marginTop: rhythm(1.5),

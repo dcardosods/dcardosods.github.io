@@ -21,7 +21,7 @@ There is a joke in the Javascript community that...
 
 > Each day a new framework raise.
 
-Its true we have hundreds of framework choices, but today two of them reach a high level of adoption. _Angular_ and _Ember_ are the subject of keynotes, talks and workshops. It seems that a kind of war happens between them, and as good and bad points of each are discussed during the Conference, after watch the videos you'll have knowledge background to choose the one that better fits your necessities.
+It is true we have hundreds of framework choices, but today two of them reach a high level of adoption. _Angular_ and _Ember_ are the subject of keynotes, talks and workshops. It seems that a kind of war happens between them, and as good and bad points of each are discussed during the Conference, after watch the videos you'll have knowledge background to choose the one that better fits your necessities.
 
 [Eric Bidelman](https://twitter.com/ebidel) is one who talks about **Web Components**. Web Components is a set of new technologies that will change the way we build for the Web in the future. To use that in our current workflow we need some polyfills. _Polymer_ is one of these, and is much more that only a polyfill. It puts together a abstraction layer on the specification, a set of core elements and a UI style-guide, and has a drag/drop kind design tool for rapid prototypping. [Michael Bleigh](https://twitter.com/mbleigh) teaches Web Components in one of the event's workshops.
 

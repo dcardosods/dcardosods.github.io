@@ -13,8 +13,9 @@ export default ({ data }) => {
       <article>
         <header>
           <h3>{post.frontmatter.title}</h3>
+
           <p>
-            <time datetime={post.frontmatter.date}>
+            <time dateTime={post.frontmatter.date}>
               {post.frontmatter.date_formatted}
             </time>
           </p>

@@ -31,7 +31,7 @@ const BlogPage = ({ data }) => (
             <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </h3>
           <p>
-            <time datetime={node.frontmatter.date}>
+            <time dateTime={node.frontmatter.date}>
               {node.frontmatter.date_formatted}
             </time>
           </p>

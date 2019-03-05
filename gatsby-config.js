@@ -42,6 +42,15 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-svg',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-44597517-2',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

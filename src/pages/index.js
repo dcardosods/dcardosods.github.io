@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -18,21 +19,21 @@ const IndexPage = () => (
       <br />
       I'm <strong>Daniel</strong>. A Frontend Developer and travel aficionado
       from Brazil. Read <Link to="/blog">my writings</Link>, check{' '}
-      <a
+      <OutboundLink
         href="https://github.com/dcardosods"
         target="_blank"
         rel="noopener noreferrer"
       >
         my code <FontAwesomeIcon icon={faGithub} />
-      </a>
+      </OutboundLink>
       , or{' '}
-      <a
+      <OutboundLink
         href="https://twitter.com/dcardosods"
         target="_blank"
         rel="noopener noreferrer"
       >
         say hi <FontAwesomeIcon icon={faTwitter} />
-      </a>
+      </OutboundLink>
       .
     </p>
   </Layout>

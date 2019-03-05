@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMedium } from '@fortawesome/free-brands-svg-icons'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -14,13 +15,13 @@ const BlogPage = ({ data }) => (
 
     <p style={{ textAlign: 'right' }}>
       Besides the articles below, I also write on{' '}
-      <a
+      <OutboundLink
         href="https://medium.com/@dcardosods"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faMedium} /> Medium
-      </a>
+      </OutboundLink>
       .
     </p>
 

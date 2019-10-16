@@ -1,6 +1,5 @@
 ---
 title: 'My story as a digital nomad. Or why is it currently on pause?'
-author: '@dcardosods'
 date: '2019-07-17'
 ---
 
@@ -26,7 +25,7 @@ I opted for the latter and my motivation was:
 - Being closer to my girlfriend. Did I say that I met a girl in Europe and fell in love?
 - Resuming my professional growth. I believe a change in the atmosphere, the people and the problems I work with will be beneficial.
 
-![Laptop and coffee mug on a table in the terrace. Lawn covered of snow in the background.](../images/laptop-on-sunny-winter-day.jpg 'Working outside on a sunny winter day, in the village of Koprivshtitsa, Bulgaria')
+![Laptop and coffee mug on a table in the terrace. Lawn covered of snow in the background.](./laptop-on-sunny-winter-day.jpg 'Working outside on a sunny winter day, in the village of Koprivshtitsa, Bulgaria')
 
 It was not an easy decision! After years of no commutes to work, flexible working hours, and full-time travel, the change would be huge. But here I am, settled and working in Amsterdam, The Netherlands.
 

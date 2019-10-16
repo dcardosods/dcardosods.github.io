@@ -1,6 +1,5 @@
 ---
 title: 'Fluent Conference 2014 Complete Video Compilation By O‘Reilly Media, Inc; O‘Reilly Media.'
-author: '@dcardosods'
 date: '2014-08-12'
 ---
 

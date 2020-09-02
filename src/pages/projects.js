@@ -8,31 +8,19 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 
-class BlogPage extends React.Component {
+class ProjectsPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const projects = data.allMarkdownRemark.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All blog posts" />
+        <SEO title="All projects" />
 
-        <h1> / blog</h1>
+        <h1> / projects</h1>
 
-        <p style={{ textAlign: 'right' }}>
-          Besides the articles below, I also write on{' '}
-          <OutboundLink
-            href="https://medium.com/@dcardosods"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faMedium} /> Medium
-          </OutboundLink>
-          .
-        </p>
-
-        {posts.map(({ node }) => {
+        {projects.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
@@ -63,7 +51,7 @@ class BlogPage extends React.Component {
   }
 }
 
-export default BlogPage
+export default ProjectsPage
 
 export const pageQuery = graphql`
   query {
@@ -73,7 +61,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { glob: "**/content/blog/**/*.md" } }
+      filter: { fileAbsolutePath: { glob: "**/content/projects/**/*.md" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

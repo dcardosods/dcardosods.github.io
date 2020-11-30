@@ -1,7 +1,9 @@
 ---
-title: 'DNAstack website'
+title: 'DNAstack platform'
 date: '2018-01-01'
 company: 'DNAstack'
+url: https://www.dnastack.com/
+thumb: 
 ---
 
 DNAstack is an advanced platform for genomics data storage, bioinformatics, and sharing on the cloud.
